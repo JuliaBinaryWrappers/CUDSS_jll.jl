@@ -1,45 +1,45 @@
 [[CUDSS]]
 arch = "x86_64"
 cuda = "12.0"
-git-tree-sha1 = "b93af091cd3a0aa20e503b6f3dd0c30f3a09b76c"
+git-tree-sha1 = "d110d0d1ff3386623f23f1673ab3f753aa58a007"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[CUDSS.download]]
-    sha256 = "ce8a3265f9008454c23cd6898e205757dd50cb8727147494a070b0d04832b8b0"
-    url = "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v0.4.0+0/CUDSS.v0.4.0.x86_64-linux-gnu-cuda+12.0.tar.gz"
+    sha256 = "903803cfef020aa62a5495ddc9388bfc595167dd5141d6eb79909da891c1ab4a"
+    url = "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v0.5.0+0/CUDSS.v0.5.0.x86_64-linux-gnu-cuda+12.0.tar.gz"
 [[CUDSS]]
 arch = "aarch64"
 cuda = "12.0"
 cuda_platform = "jetson"
-git-tree-sha1 = "b05c9263bc0e149618a3b4b573d3eb490318f03d"
+git-tree-sha1 = "532810ec5cdb2429357f369687981791a5ae1f67"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[CUDSS.download]]
-    sha256 = "d91fe42d6881508e2729fa553fcb8c500f966c4963b2eecddfbcc5c55dc2fa42"
-    url = "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v0.4.0+0/CUDSS.v0.4.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.gz"
+    sha256 = "bd0a56d291ba4276f643e3ea0d7e51cc2d82bc8399b7958ddb738b3fc0a7782a"
+    url = "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v0.5.0+0/CUDSS.v0.5.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.gz"
 [[CUDSS]]
 arch = "aarch64"
 cuda = "12.0"
 cuda_platform = "sbsa"
-git-tree-sha1 = "1231f841a7f913e1eb7fe8bc81667c245631adeb"
+git-tree-sha1 = "5a29aa72b5248d1a80271d192433071c9a177d39"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[CUDSS.download]]
-    sha256 = "8b32d3e0bf68919183743bac0127c267d38097c73393b8b85b8ab33b5e044030"
-    url = "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v0.4.0+0/CUDSS.v0.4.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz"
+    sha256 = "1cacf6407e7a65fbab2d230d98eba49969713e56143211e02c3f9a4fa2ca9f69"
+    url = "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v0.5.0+0/CUDSS.v0.5.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz"
 [[CUDSS]]
 arch = "x86_64"
 cuda = "12.0"
-git-tree-sha1 = "4be52409fcd7f34654b0970ec2769e60ccfa6ea8"
+git-tree-sha1 = "aaea45b481c9eedb5bd3638c90a50e8b0d52da57"
 lazy = true
 os = "windows"
 
     [[CUDSS.download]]
-    sha256 = "eae839405303e8b71256445000466875d84dbebe74a06bccc73c506a0996ec43"
-    url = "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v0.4.0+0/CUDSS.v0.4.0.x86_64-w64-mingw32-cuda+12.0.tar.gz"
+    sha256 = "3f9f309c20bf2d04a7309349db13e152ac6d915f07f79f5d2ee53d4fcebf7525"
+    url = "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v0.5.0+0/CUDSS.v0.5.0.x86_64-w64-mingw32-cuda+12.0.tar.gz"
