@@ -1,6 +1,6 @@
 name = "CUDSS_jll"
 uuid = "4889d778-9329-5762-9fec-0578a5d30366"
-version = "0.7.0+0"
+version = "0.7.1+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
