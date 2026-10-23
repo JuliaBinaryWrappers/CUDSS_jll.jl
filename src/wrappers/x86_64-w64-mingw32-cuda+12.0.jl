@@ -4,12 +4,12 @@ export libcudss
 using CompilerSupportLibraries_jll
 using CUDA_Runtime_jll
 JLLWrappers.@generate_wrapper_header("CUDSS")
-JLLWrappers.@declare_library_product(libcudss, "cudss64_0.dll")
+JLLWrappers.@declare_library_product(libcudss, "cudss64_1.dll")
 function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, CUDA_Runtime_jll)
     JLLWrappers.@init_library_product(
         libcudss,
-        "bin\\cudss64_0.dll",
+        "bin\\cudss64_1.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
